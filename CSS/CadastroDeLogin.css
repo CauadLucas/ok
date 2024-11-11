@@ -1,0 +1,128 @@
+body {
+    background-color: #e6e5e5;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-card1 {
+    background-image: linear-gradient(163deg, #007bff 0%, #007bff 100%);
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.form-card1:hover {
+    box-shadow: 0px 0px 30px 1px #007bff;
+}
+
+.form-card2 {
+    border-radius: 0;
+    transition: all 0.2s;
+}
+
+.form-card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a8a8a8;
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.error {
+    color: #e0162a;
+    margin-bottom: 10px;
+}
+
+.suggestions {
+    display: none;
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.suggestions li {
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background-color: #555;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ReturnToLogin {
+    background-color: transparent;
+    color: #007bff;
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration:none;
+    margin-left: 30px;
+}
+
+.ReturnToLogin:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration:none;
+}

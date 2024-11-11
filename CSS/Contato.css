@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e5e5;
+    margin: 0;
+    padding: 0;
+}
+
+.contato {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contato .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-heading {
+    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 1.5em;
+}
+
+.form-field {
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    border: 1px solid #a8a8a8;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.contato button,
+.contato a.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px; 
+}
+
+.contato button:hover,
+.contato a.btn:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+}
+
+.contato a.btn {
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+    margin-left: 40px;
+}
+
+.contato a.btn:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.feedback {
+    font-size: 1em;
+    color: #333;
+    margin-top: 20px;
+}
+
+    @media (max-width: 600px) {
+    .contato .container {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .input-field {
+        font-size: 14px;
+    }
+
+    button,
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

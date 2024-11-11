@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/CadastroDeLogin.css">
+    <title>Cadastro de Login</title>
+</head>
+<body>
+<div class="form-card1">
+    <div class="form-card2">
+    <div class="container">
+        <h2>Cadastro de Usuário</h2>
+        <form id="cadastroForm">
+            <div>
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" placeholder="Digite Seu Nome de Usuário" id="username" name="username" required>
+                <span class="error" id="usernameError"></span>
+                <ul class="suggestions" id="usernameSuggestions"></ul>
+            </div>
+<br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Digite Seu Email" id="email" name="email" required>
+                <span class="error" id="emailError"></span>
+            </div>
+<br>
+            <div>
+                <label for="password">Senha:</label>
+                <input type="password" placeholder="Digite Uma Senha" id="password" name="password" required>
+                <span class="error" id="passwordError"></span>
+            </div>
+<br>
+            <div>
+                <label for="confirmPassword">Confirmar Senha:</label>
+                <input type="password" placeholder="Digite Senha Novamente" id="confirmPassword" name="confirmPassword" required>
+                <span class="error" id="confirmPasswordError"></span>
+            </div>
+<br>
+            <button type="submit">Cadastrar</button>
+            <a class="ReturnToLogin" href="Login.html">Voltar para o login</a>
+        </form>
+    </div>
+    </div>
+</div>
+</body>
+</html>
